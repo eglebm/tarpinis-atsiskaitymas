@@ -53,7 +53,6 @@ header .header-title {
     position: relative;
     margin-top: 51px;
     padding: 100px 0;
-    background-color:aqua;
 }
 
 .hero:before{
@@ -89,6 +88,24 @@ header .header-title {
     text-align: center;
     max-width: 700px;
     width: 100%;
+}
+
+form.form-subscribe {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+input.email {
+    position: relative;
+    min-height: 15px;
+    min-width: 400px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 0;
+    border: solid #fff;
+    box-sizing: border-box;
+    
 }
 
 
