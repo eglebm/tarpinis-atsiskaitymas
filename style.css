@@ -52,7 +52,7 @@ header .header-title {
     align-items: center;
     position: relative;
     margin-top: 51px;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 .hero:before{
@@ -92,19 +92,19 @@ header .header-title {
 
 form.form-subscribe {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     flex-wrap: wrap;
 }
 
 input.email {
     position: relative;
     min-height: 15px;
-    min-width: 400px;
+    min-width: 450px;
     border-radius: 4px;
     padding: 8px 12px;
-    margin: 0;
+    margin-right: 10px;
     border: solid #fff;
-    box-sizing: border-box;
+    box-sizing: content-box;
     
 }
 
